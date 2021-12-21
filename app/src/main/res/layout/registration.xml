@@ -40,9 +40,10 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="@string/pass"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:textColorHint="@color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        />
 
     <EditText
         android:id="@+id/email_reg"
