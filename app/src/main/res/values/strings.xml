@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Лабораторная 8</string>
+    
+    <string name="comp">Компания</string>
+    <string name="founder">Основатель</string>
+    <string name="product">Продукт</string>
+    <string name="additem">Добавить</string>
+    <string name="edititem">Изменить</string>
+    <string name="delitem">Удалить</string>
+    <string name="cinsertname">Введите наименование компании:</string>
+    <string name="finsertname">Введите наименование основателя:</string>
+    <string name="pinsertname">Введите наименование продукта:</string>
+    <string name="pcatinsertname">Выберите наименование категории:</string>
+    <string name="ppriceinsertname">Введите цену продукта:</string>
+
+
+    <string name="cid">Введите ID компании:</string>
+    <string name="fid">Введите ID основателя:</string>
+    <string name="pid">Введите ID продукта:</string>
+
+    <string name="delid">Введите ID записи, которую желаете удалить:</string>
+    <string name="cls">Очистить</string>
+    <string name="find">Поиск</string>
+    <string name="ref">Обновить</string>
+
+    <string name="gr">Группировать</string>
+    <string name="sort">Сортировать</string>
+
+    <string name="grtext">Группировать по категории продукта:</string>
+    <string name="sorttext">Отсортировать по названию продуктов:</string>
+
+    <string name="ed">Внести изменения</string>
+
+    <string name="auth">Авторизация</string>
+    <string name="login">Логин</string>
+    <string name="pass">Пароль</string>
+    <string name="cantlogin">Не можете войти?</string>
+    <string name="reg">Зарегистрироваться</string>
+    <string name="getac">Войти</string>
+    <string name="registr">Регистрация</string>
+    <string name="email">Электронная почта</string>
+    <string name="alrreg">Уже есть аккаунт?</string>
+
+    <string-array name="datalist">
+        <item>Компании</item>
+        <item>Основатели</item>
+        <item>Продукты</item>
+        <item>Общая стоимость продуктов</item>
+        <item>Средняя стоимость продуктов</item>
+    </string-array>
+
+    <string-array name="categorylist">
+        <item>IDE</item>
+        <item>OS</item>
+        <item>Соц. сеть</item>
+        <item>АО</item>
+    </string-array>
+
+
+
+</resources>

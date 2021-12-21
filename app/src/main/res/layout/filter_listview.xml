@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grtext" />
+
+    <Spinner
+        android:id="@+id/grouplist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_marginTop="10dp"
+        android:entries="@array/categorylist" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/groupbycat"
+        android:layout_marginTop="15dp"
+        android:text="@string/sorttext" />
+
+    <Button
+        android:id="@+id/sortbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView7"
+        android:layout_marginTop="10dp"
+        android:onClick="onItemSelected"
+        android:text="@string/sort" />
+
+    <Button
+        android:id="@+id/groupbycat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grouplist"
+        android:text="@string/gr" />
+</RelativeLayout>
